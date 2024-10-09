@@ -1,8 +1,11 @@
 import turtle
-noob = turtle.Turtle()
+tina = turtle.Turtle()
 
-for i in range(4):
-    noob.forward(150)
-    noob.left(90)
+sides = 6
+angle =  /sides
 
-noob.done()
+for i in range(sides):
+    tina.left(angle)
+    tina.forward(50)
+
+turtle.exitonclick()
