@@ -38,7 +38,7 @@ for i in range(25):
 
     t.fillcolor(getRandomColor()) 
    
-    t.begin_fill()
+    t.begin_fill(red)
 
     t.forward(64) 
 

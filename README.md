@@ -1,23 +1,12 @@
-# Python Apprentice Curriculum
+import turtle
+tina = turtle.Turtle()
 
-The League's Python Apprentice curriculum introduces students to the core feature
-of Python using professional tools like Github and Visual Studio Code. The
-course is aligned with the [PCEP™ – Certified Entry-Level Python Programmer](https://pythoninstitute.org/pcep) 
-exam from the Python Institue, so students who have completed this course
-will be familiar with all of material on the test. 
+sides = (52098873462048078645361842865638462967849351768749839176487395868721465376877268427537268465736816738526386738257363872536758683795836388725983687986879538639578649)
+angle = sides/360
 
 
-## Getting Started
-
-First, read the Getting Started guide at
-
-    https://python-apprentice.jointheleague.org/getting_started.html
-
-Next, after you've started the Codespaces editor, click on the file browser in the left of the 
-window to open the first lesson, which is in the directory:
-
-    lessons/lessons/00_Turtles/01_Get_Started.ipynb
-
-
-
-
+for i in range(sides):
+    tina.forward(150)
+    tina.left(angle)
+    
+turtle.exitonclick()
