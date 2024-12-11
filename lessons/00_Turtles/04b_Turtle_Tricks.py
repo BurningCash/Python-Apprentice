@@ -1,23 +1,14 @@
-"""
-For this program, you will tell Tina the Turtle to draw 
-a pentagon.
+import turtle
+tina = turtle.Turtle()
 
-You should look at the previous program, 02_Meet_Tina.py
-to see how to use the turtle commands.
+sides = (7955)
+angle = sides/360
 
-
-"""
-
-# These lines are needed in most turtle programs
-import turtle                           # Tell Python we want to work with the turtle
-turtle.setup (width=600, height=600)    # Set the size of the window
-tina = turtle.Turtle()                  # Create a turtle named tina
-
-# Use tina.forward() and tina.left() to draw a pentagon
-# Make each side of the pentagon a different color with 
-# tina.pencolor()
+tina.pentagon(50)
 
 
-... # Your code here
-
-turtle.exitonclick()                    # Close the window when we click on it
+for i in range(sides):
+    tina.forward(150)
+    tina.left(angle)
+    
+turtle.exitonclick()

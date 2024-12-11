@@ -4,11 +4,13 @@
 
 
 import turtle                           # Tell Python we want to work with the turtle
-turtle.setup (width=600, height=600)    # Set the size of the window
+turtle.setup (width, height=600)    # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
 
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
+
+
 tina.circle(5)
 tina.circle(10)
 tina.circle(15)
