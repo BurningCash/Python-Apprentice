@@ -2,7 +2,7 @@ import turtle
 tina = turtle.Turtle()
 
 sides = 6
-angle =  /sides
+angle =  sides
 
 for i in range(sides):
     
