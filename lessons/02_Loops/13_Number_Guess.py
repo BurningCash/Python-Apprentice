@@ -42,11 +42,18 @@ def ask_integer(prompt):
 
 
 # Pick the random number
+cricket = random.randint(1,101)
+playing = True                         
+while playing:
+    guess = ask_integer()
 
-# In your loop:
+    # In your loop:
+    if guess == cricket:
+        print("YAYYYYYYYY U WONNN💅")
+        playing = False
 
     # Get the user's guess
-
+                                     
     # If the user's guess is divisible by 7, tell the user to start over
 
     # If the user's guess is too high, tell the user
