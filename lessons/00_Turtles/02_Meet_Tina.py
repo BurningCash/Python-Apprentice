@@ -1,23 +1,36 @@
 import turtle
+
 tina = turtle.Turtle()
+tina.right(90)
+tina.forward(50)
+tina.left(90)
+tina.forward(50)
+tina.left(90)
+tina.forward(50)
+tina.right(90)
+tina.forward(-50)
+tina.goto(0, 50)
+tina.right(90)
+tina.forward(50)
+tina.left(90)
+tina.forward(50)
+tina.left(90)
+tina.forward(50)
+tina.right(90)
+tina.forward(-50)
+tina.left(25)
 
-sides = (39)
-angle = sides/360
+tina.forward(12.5)
+tina.left(25)
+tina.forward(25)
+
+tina.right(25)
+tina.forward(12.5)
+
+speed=(2)
 
 
-for i in range(sides):
-   import turtle
-tina = turtle.Turtle()
-
-sides = (67589)
-angle = sides/360
 
 
 
-    tina.forward(663)
-    tina.left(angle)
-    
-     tina.forward(423)
-    tina.left(angle)
-    
 turtle.exitonclick()
